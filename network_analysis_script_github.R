@@ -20,7 +20,7 @@ bd <- bfi
 #* Version 1: Network Creation and Centrality Measures ----
 
 
-##*** change "bd" and "c(1:25)" for your case *** ##################################################
+##*** change "bd" and "c(1:25)" in line 27 and 33 for your case *** ##################################################
 
 {
   # Extract the names of the questionnaire items
@@ -242,7 +242,7 @@ bd <- bfi
        edge.width = E(G)$width)    # Adjust edge thickness
 
   btw_groups <- cluster_edge_betweenness(G)
-  btw_groups <- btw_groups$membership  # Obtener la asignación de comunidades
+  btw_groups <- btw_groups$membership  # Obtener la asignaciÃ³n de comunidades
   
   # Create a dataframe with the metrics for each node
   centrality_df <- data.frame(
