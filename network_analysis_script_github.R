@@ -265,10 +265,10 @@ bd <- bfi
     # Print each group to the console
     for (i in 1:length(grouped_tables)) {
       cat("\nGroup ", i, " :\n")
-      print(grouped_tables[[i]])
-      
-  
+      print(grouped_tables[[i]]) 
   }
+ })
+}
 
 
 
